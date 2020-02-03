@@ -11,5 +11,3 @@ def convert(num, b):
         return '{}{}'.format(convert(num//b,b), newnum)
     else:
         return newnum
-
-print(convert(0, 0))
